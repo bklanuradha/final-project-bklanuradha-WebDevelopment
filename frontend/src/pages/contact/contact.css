@@ -1,0 +1,68 @@
+.contact{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+        ), 
+        url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.contact{
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactTitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #ce0cf5de;
+    border-bottom: 1px solid #a7a4a4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: rgb(8, 74, 90);
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+.contactItem > p{
+    padding: 30px;
+}
+
+.contactList{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.contactSocial{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactIcon{
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
